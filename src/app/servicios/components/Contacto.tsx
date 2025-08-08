@@ -37,7 +37,7 @@ export default function Contacto() {
         setStatus("error");
         setErrorMsg(result.errors?.[0]?.message || "Error al enviar. Intenta más tarde.");
       }
-    } catch (err) {
+    } catch {
       setStatus("error");
       setErrorMsg("Error de red. Intenta más tarde.");
     }

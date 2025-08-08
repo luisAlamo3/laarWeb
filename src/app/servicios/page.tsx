@@ -28,9 +28,9 @@ export default function Servicios() {
   const scrollToNosotros = () => {
     nosotrosRef.current?.scrollIntoView({ behavior: "smooth" });
   };
-  const scrollToWhyUs = () => {
-    whyusRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
+  // const scrollToWhyUs = () => {
+  //   whyusRef.current?.scrollIntoView({ behavior: "smooth" });
+  // } 
   const scrollToTop = () => {
     topRef.current?.scrollIntoView({ behavior: "smooth" });
   };

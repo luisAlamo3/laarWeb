@@ -1,9 +1,8 @@
 import React from "react";
 
-interface ButtonProps {
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
   className?: string;
-  [key: string]: any;
 }
 
 export default function Button({ children, className = "", ...props }: ButtonProps) {
