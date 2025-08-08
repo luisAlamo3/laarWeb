@@ -10,7 +10,7 @@ export default function Hero({ onVerServicios, onContactar }: { onVerServicios?:
 import Image from "next/image";
         </div>
         <h1 className="text-4xl md:text-6xl font-bold text-gray-200 mb-2">Soluciones IT <span className="text-purple-400">Profesionales</span></h1>
-  <p className="text-lg md:text-xl text-gray-400 mb-6">Transformamos tu tecnología en productividad.</p>
+  <p className="text-lg md:text-xl text-gray-400 mb-6">Transformamos tu tecnolog&iacute;a en productividad.</p>
   <p className="text-md md:text-lg text-gray-400 mb-10">Soluciones IT y desarrollo de software a la medida de tu negocio.</p>
         <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
           <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:scale-105 shadow-lg" onClick={onVerServicios}>

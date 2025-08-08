@@ -10,7 +10,7 @@ export default function Footer() {
 import Image from "next/image";
         </div>
   <h3 className="text-xl font-semibold text-gray-200 mb-2">Soluciones IT Profesionales</h3>
-        <p className="text-gray-400 text-sm mb-4">Tu socio confiable en tecnología. Brindamos soluciones técnicas integrales para mantener tu negocio funcionando sin interrupciones.</p>
+  <p className="text-gray-400 text-sm mb-4">Tu socio confiable en tecnolog&iacute;a. Brindamos soluciones t&eacute;cnicas integrales para mantener tu negocio funcionando sin interrupciones.</p>
         <div className="w-full h-px bg-gray-700 mx-auto my-6"></div>
   <p className="text-gray-500 text-xs">&copy; 2024 Soluciones IT Profesionales. Todos los derechos reservados.</p>
       </div>
